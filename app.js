@@ -42,6 +42,27 @@ let populationChart = new Chart(myChart, {
             hoverBorderColor: "#000"
         }]
     },
-    options: {}
+    options: {
+        title: {
+            display: true,
+            text: 'Largest Cities in Pakistan',
+            fontSize: 25
+        },
+        legend: {
+            display: false,
+            position: 'right', // top, bottom ,left, right
+            labels: {
+                fontColor: '#000'
+            }
+        },
+        layout: {
+            padding: {
+                left: 50,
+                right: 0,
+                top: 0,
+                bottom: 0
+            }
+        }
+    }
 
 })
