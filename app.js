@@ -1,6 +1,9 @@
 let myChart = document.getElementById('myChart').getContext('2d')
 
-
+// global options
+Chart.defaults.global.defaultFontFamily = 'Lato';
+Chart.defaults.global.defaultFontSize = 18;
+Chart.defaults.global.defaultFontColor = '#777';
 
 let populationChart = new Chart(myChart, {
     type: 'bar', // bar, horizontalBar, pie, line, doughnut, radar, polarArea
@@ -34,9 +37,9 @@ let populationChart = new Chart(myChart, {
                 'rgb(233,134,236)'
             ],
             borderWidth: 1,
-            borderColor: "black",
+            borderColor: "#ddd",
             hoverBorderWidth: 3,
-            hoverBorderColor: "#777"
+            hoverBorderColor: "#000"
         }]
     },
     options: {}
