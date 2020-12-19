@@ -6,7 +6,7 @@ Chart.defaults.global.defaultFontSize = 18;
 Chart.defaults.global.defaultFontColor = '#777';
 
 let populationChart = new Chart(myChart, {
-    type: 'pie', // bar, horizontalBar, pie, line, doughnut, radar, polarArea
+    type: 'bar', // bar, horizontalBar, pie, line, doughnut, radar, polarArea
     data: {
         labels: ['Karachi', 'Lahore', 'Faisalabad', 'Rawalpinde', 'Gujranwala', 'Peshawar', 'Multan', 'Hyderabad', 'Islamabad', 'Quetta'],
         datasets: [{
